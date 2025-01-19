@@ -19,10 +19,10 @@ public class EndpointAgeTest {
 
     @Test
     public void testEndpoint() throws Exception {
-        testAgeEndpoint("2024-01-01", 0);
-        testAgeEndpoint("2020-01-01", 4);
-        testAgeEndpoint("2000-01-01", 24);
-        testAgeEndpoint("2000-12-31", 23);
+        testAgeEndpoint("2025-01-01", 0);
+        testAgeEndpoint("2020-01-01", 5);
+        testAgeEndpoint("2000-01-01", 25);
+        testAgeEndpoint("2000-12-31", 24);
     }
 
     public void testAgeEndpoint(String birthDate, int age) throws Exception {
