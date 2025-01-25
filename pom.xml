@@ -69,13 +69,13 @@
                 <version>1.0-SNAPSHOT</version>
                 <configuration>
                     <testFilePath>
-                        /Users/boukenijhuis/git/jfokus-examples/src/test/java/org/example/endpoint/EndpointTest.java
+                        /Users/boukenijhuis/git/jfokus-examples/src/test/java/org/example/endpoint/EndpointAgeTest.java
                     </testFilePath>
 
 <!--                    <family>anthropic</family>-->
 <!--                    <family>ollama</family>-->
-<!--                    <model>pxlksr/opencodeinterpreter-ds</model>-->
-<!--                    <timeout>20</timeout>-->
+<!--                    <model>deepseek-r1:8b</model>-->
+<!--                    <timeout>60</timeout>-->
 <!--                    <server>http://localhost:11434</server>-->
 <!--                    <prompt>Do not write a test. Write production code that passes this test: %n%s</prompt>-->
 
